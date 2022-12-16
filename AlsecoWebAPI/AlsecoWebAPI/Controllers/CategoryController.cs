@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AlsecoWebAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("Categories/")]
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryRepository _categoryRepository;

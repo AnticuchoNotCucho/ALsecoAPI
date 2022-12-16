@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/anticucho/Documentos/Github/AlsecoAPI/AlsecoWebAPI/AlsecoWebAPI/AlsecoWebAPI.csproj": {}
+    "C:\\Users\\jorge.munoz.m.MUNIMACUL\\Documents\\Github\\ALsecoAPI\\AlsecoWebAPI\\AlsecoWebAPI\\AlsecoWebAPI.csproj": {}
   },
   "projects": {
-    "/home/anticucho/Documentos/Github/AlsecoAPI/AlsecoWebAPI/AlsecoWebAPI/AlsecoWebAPI.csproj": {
+    "C:\\Users\\jorge.munoz.m.MUNIMACUL\\Documents\\Github\\ALsecoAPI\\AlsecoWebAPI\\AlsecoWebAPI\\AlsecoWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/anticucho/Documentos/Github/AlsecoAPI/AlsecoWebAPI/AlsecoWebAPI/AlsecoWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jorge.munoz.m.MUNIMACUL\\Documents\\Github\\ALsecoAPI\\AlsecoWebAPI\\AlsecoWebAPI\\AlsecoWebAPI.csproj",
         "projectName": "AlsecoWebAPI",
-        "projectPath": "/home/anticucho/Documentos/Github/AlsecoAPI/AlsecoWebAPI/AlsecoWebAPI/AlsecoWebAPI.csproj",
-        "packagesPath": "/home/anticucho/.nuget/packages/",
-        "outputPath": "/home/anticucho/Documentos/Github/AlsecoAPI/AlsecoWebAPI/AlsecoWebAPI/obj/",
+        "projectPath": "C:\\Users\\jorge.munoz.m.MUNIMACUL\\Documents\\Github\\ALsecoAPI\\AlsecoWebAPI\\AlsecoWebAPI\\AlsecoWebAPI.csproj",
+        "packagesPath": "C:\\Users\\jorge.munoz.m.MUNIMACUL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorge.munoz.m.MUNIMACUL\\Documents\\Github\\ALsecoAPI\\AlsecoWebAPI\\AlsecoWebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/anticucho/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jorge.munoz.m.MUNIMACUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +92,19 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -106,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AlsecoWebAPI.Controllers
 {
-    [Route("Alseco/[controller]")]
     [ApiController]
+    [Route("Users/")]
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepository;

@@ -11,8 +11,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AlsecoWebAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("Products/")]
     public class ProductController : ControllerBase
     {
         private readonly IProductRepository _productRepository;
